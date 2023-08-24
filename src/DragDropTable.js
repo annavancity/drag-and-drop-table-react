@@ -74,12 +74,6 @@ const DragDropTable = () => {
     setTableData(newData);
   }
 
-  // const handleToggleEditRow = (index) => {
-  //   const newData = [...tableData];
-  //   newData[index].editable = !newData[index].editable;
-  //   setTableData(newData);
-  // }
-
   const handleToggleEditRow = (index) => {
     if(tableData[index]. editable) {
       const newData = [...tableData];
